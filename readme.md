@@ -1,8 +1,7 @@
-# Home Assistance Robot - Version 2
-This second version of home assistance robot mostly focuses on the interfaces of the robots. It is a web based robot designed to help people program their smart homes easily. 
+# Home Assistance Robot UI
+This is the interfaces of the robots. It is a web based robot face designed to help people program their smart homes easily. 
 
-This robot uses the web server generated from the first version of home assistance robot. The source codes of
-web server part is [here](https://github.com/BerwinZ/Home-Assistance-Robot/tree/webserver)
+This robot uses the web server, which can be found [here](https://github.com/BerwinZ/Home-Assistance-Robot/tree/webserver)
 
 ## Function
 ### Chat Mode
