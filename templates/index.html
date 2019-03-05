@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment2</title>
+      <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+
+<body>
+
+  <html>
+  <head>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <select id="lang"></select>
+      <div id="subtitle">Hi, I am a robot!</div>
+      <canvas id="faceCanvas" width="400" height="300"></canvas>
+    </div>
+
+    <div class="wrapper2">
+
+      <div class="wrapper3">
+        <input id="startCamera" type="button" value="Open Camera">
+        <video hidden id="myVideo" width="640" height="480"></video>
+        <canvas id="cameraCanvas" width="320" height="240"></canvas>
+        <div id="lightIndicator"></div>
+      </div>
+
+      <div class="wrapper4">
+        Name:
+        <input id="nameinput">
+        <input id="saveFace" type="button" value="Save Faces">
+        <input id="removeFace" type="button" value="Remove Faces">
+      </div>
+
+    </div>
+  </body>
+
+  <script src="{{ url_for('static', filename='js/robotface.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/communicate.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/camera.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/speech.js') }}"></script>
+
+
+</body>
+
+</html>
