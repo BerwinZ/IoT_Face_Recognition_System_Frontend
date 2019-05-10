@@ -1,4 +1,4 @@
-# Home Assistance Robot UI
+# Iot Face Recognition System Front End
 This is the interfaces of the robots. It is a web based robot face designed to help people program their smart homes easily. 
 
 This robot uses the web server, which can be found [here](https://github.com/BerwinZ/Home-Assistance-Robot/tree/webserver)
